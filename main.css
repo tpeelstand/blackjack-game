@@ -1,0 +1,46 @@
+/* Geneeral Styles */
+body {
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url('table.png');
+    background-size:cover;
+    height: 100vh;
+    text-align: center;
+    font-weight: bold;
+    color: #FFF;
+}
+/* Text Styles */
+h1 {
+    font-size: 3em;
+    text-transform: uppercase;
+    color: goldenrod;
+    text-align: center;
+}
+
+#message-el {
+    font-style: italic;
+}
+p {
+    font-size: 2em;
+}
+.sub {
+    font-size: 1.5em;
+}
+/* Start game Button */
+button {
+    color: #016f32;
+    width: 300px;
+    padding: 10px;
+    background-color: goldenrod;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2em;
+    border: none;
+    border-radius: 4px;
+    margin: 3px 0;
+}
+.reset-btn {
+    background-color: darkred;
+    color: #FFF;
+}
